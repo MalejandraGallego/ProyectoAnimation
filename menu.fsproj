@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Tipos.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="Menu.fs" />
+    <Compile Include="Juego.fs" /><Compile Include="Saludo.fs" />
+    <Compile Include="Enrutador.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
